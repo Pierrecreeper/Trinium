@@ -1,0 +1,43 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.pierrecreeper.trinium.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "VisGraphMixin",
+    "PaletteMixin",
+    "VertexSortingMixin",
+    "DebugOverlayMixin",
+    "GlDrawScopeMixin",
+    "GlStateCommandsMixin",
+    "GlBooleanCommandsMixin",
+    "GlEncoderCommandsMixin",
+    "GlVertexCommandsMixin",
+    "GlLegacyVertexCommandsMixin",
+    "TerrainPreparationMixin",
+    "BulkBufferMixin",
+    "ModelBatchMixin",
+    "ShaderCacheMixin",
+    "IrisProgramCacheMixin",
+    "IrisBinaryHintMixin",
+    "SessionReportMixin",
+    "VideoSettingsEntryMixin",
+    "StandaloneShaderMixin",
+    "CompiledMeshSliceMixin",
+    "GlFullBufferSliceMixin",
+    "TerrainIndexedDrawMixin",
+    "UberBufferInvalidationMixin",
+    "DirectTerrainTagMixin",
+    "TerrainSubmitMixin",
+    "LoadingGridMixin",
+    "LoadingGridCaptureMixin",
+    "LoadingGridBarrierMixin",
+    "ChestFrustumAccess",
+    "ChestFrustumCullingMixin",
+    "ClimateNodeDistanceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "plugin": "fr.pierrecreeper.trinium.compat.TriniumMixinPlugin"
+}

@@ -1,0 +1,26 @@
+Trinium — All Rights Reserved
+
+Copyright (c) 2026 pierrecreeper. All rights reserved.
+SPDX-License-Identifier: LicenseRef-Trinium-Proprietary
+
+This notice applies to the Trinium-specific source code, build scripts,
+documentation and assets to the extent owned by pierrecreeper.
+
+Permission is granted to download and run an unmodified, lawfully obtained
+Trinium release for personal use. Any redistribution, modification, commercial
+use or publication of Trinium-specific source or binaries requires the
+copyright holder's written permission, except as required by applicable law.
+
+Modrinth's Content Moderation Team and its authorized reviewers may access,
+inspect, copy and compile the provided source in a private review environment
+to evaluate safety, source-to-binary correspondence and platform compliance.
+This permission does not authorize public redistribution of the source.
+
+Third-party components retain their original licenses and notices; see
+THIRD_PARTY_NOTICES.md and META-INF/third-party. This notice does not restrict
+permissions granted by those licenses or rights already granted under earlier
+MIT-licensed Trinium distributions.
+
+THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM
+EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER IS NOT LIABLE FOR CLAIMS OR
+DAMAGES ARISING FROM ITS USE.

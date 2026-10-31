@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "trinium",
+  "version": "0.1.0",
+  "name": "Trinium",
+  "description": "Client performance experiments, Rust helpers, translucent video settings and a bounded standalone post-processing shader loader for Minecraft 26.3.",
+  "authors": [
+    "pierrecreeper"
+  ],
+  "license": "All Rights Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "fr.pierrecreeper.trinium.Trinium::initialize"
+    ]
+  },
+  "mixins": [
+    "trinium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25"
+  },
+  "breaks": {
+    "vulkanmod": "*",
+    "nvidium": "*"
+  },
+  "custom": {
+    "trinium:stage": "alpha",
+    "trinium:rust_bundled": false,
+    "trinium:rust_targets": [],
+    "trinium:auto_native_build": false
+  },
+  "icon": "assets/trinium/icon.png"
+}

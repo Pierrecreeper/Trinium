@@ -1,0 +1,12 @@
+/target/
+/native/target/
+/native-bundles/
+/config/
+/logs/
+*.log
+.idea/
+
+.game/
+*.log
+
+/review-output/

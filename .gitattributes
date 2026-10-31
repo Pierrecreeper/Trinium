@@ -1,0 +1,9 @@
+* text=auto
+*.sh text eol=lf
+*.cmd text eol=crlf
+*.java text eol=lf
+*.rs text eol=lf
+*.dll binary
+*.so binary
+*.dylib binary
+*.jar binary
